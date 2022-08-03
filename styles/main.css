@@ -1,0 +1,93 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: Outfit;
+    font-size:  18px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container>.content_container{
+    background-color: hsl(216, 50%, 16%);
+   border-radius: 10px;
+margin-top:30px ;
+}
+.container>.content_container>.bluer_image{
+ align-items: center;
+ padding-top: 30px;
+ padding-left: 40px;
+}
+.container>.content_container>.bluer_image>img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container>.content_container>.word_phase{
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.container>.content_container>.word_phase>h3>a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%) ;
+    }
+    .container>.content_container>.word_phase>h3>a:hover{
+        color:hsl(178, 100%, 50%) ;
+    }
+.container>.content_container>.text_phrase{
+    color:  hsl(215, 32%, 27%);
+    padding-top: 20px;
+    text-align: justify;
+    
+}
+.container>.content_container>.sideway_text{
+    display: flex;
+   flex: auto;
+}
+.container>.content_container>.sideway_text>.ETH{
+    color: hsl(178, 100%, 50%);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.container>.content_container>.sideway_text>.clock{
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.container>.content_container>.status{
+    display: flex;
+    border-top: 1px solid hsl(215, 51%, 70%) ;
+    
+}
+.container>.content_container>.status>img{
+    border: 1px solid hsl(0, 0%, 100%);
+padding: 5px;
+background-color: hsl(0, 0%, 100%);
+border-radius: 50%;
+margin-top: 25px;
+}
+.container>.content_container>.status>span{
+    margin-top: 100px;
+padding-left: 60px;
+color:hsl(215, 32%, 27%) ;
+}
+.container>.content_container>.status>span>strong{
+    color:  hsl(0, 0%, 100%);
+}
+.container>.content_container>.status>span>strong>a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+.container>.content_container>.status>span>strong>a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%) ;  
+}
